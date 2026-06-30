@@ -35,6 +35,14 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/testimonios"
+                  className="hover:text-acento transition-colors"
+                >
+                  Testimonios
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/pack"
                   className="hover:text-acento transition-colors"
                 >
@@ -85,9 +93,37 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-stone-700 mt-10 pt-6 text-sm text-stone-500 text-center">
-          © {new Date().getFullYear()} Rosa Aumedes Sánchez. Todos los derechos
-          reservados.
+        <div className="border-t border-stone-700 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-stone-500">
+          <p>
+            © {new Date().getFullYear()} Rosa Aumedes Sánchez. Todos los
+            derechos reservados.
+          </p>
+          <ul className="flex gap-4">
+            <li>
+              <Link
+                href="/aviso-legal"
+                className="hover:text-acento transition-colors"
+              >
+                Aviso legal
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/politica-privacidad"
+                className="hover:text-acento transition-colors"
+              >
+                Privacidad
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/politica-cookies"
+                className="hover:text-acento transition-colors"
+              >
+                Cookies
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>

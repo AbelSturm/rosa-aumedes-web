@@ -58,12 +58,6 @@ export default function BookPage({ params }: Props) {
               {book.description}
             </p>
 
-            {book.quote && (
-              <blockquote className="border-l-4 border-acento pl-5 py-2 mb-6 italic font-playfair text-lg text-texto">
-                &ldquo;{book.quote}&rdquo;
-              </blockquote>
-            )}
-
             <div className="bg-stone-50 rounded-lg p-5 mb-8">
               <p className="text-xs uppercase tracking-widest text-stone-400 mb-2 font-inter">
                 ¿Para quién es este libro?
@@ -97,7 +91,28 @@ export default function BookPage({ params }: Props) {
                 </svg>
               </a>
             </div>
+
+            <p className="text-xs text-stone-400 font-inter mt-4">
+              ISBN: {book.isbn}
+            </p>
           </div>
+        </div>
+      </section>
+
+      {/* Frases destacadas */}
+      <section className="max-w-5xl mx-auto px-6 pb-16">
+        <h2 className="font-playfair text-2xl font-semibold text-texto mb-8 text-center">
+          Frases del libro
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {book.quotes.map((q, i) => (
+            <blockquote
+              key={i}
+              className="bg-stone-50 rounded-xl p-6 border-l-4 border-acento italic font-playfair text-texto leading-relaxed"
+            >
+              &ldquo;{q}&rdquo;
+            </blockquote>
+          ))}
         </div>
       </section>
 

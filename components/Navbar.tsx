@@ -76,6 +76,14 @@ export default function Navbar() {
           </li>
           <li>
             <Link
+              href="/testimonios"
+              className="text-texto hover:text-acento transition-colors"
+            >
+              Testimonios
+            </Link>
+          </li>
+          <li>
+            <Link
               href="/pack"
               className="text-texto hover:text-acento transition-colors"
             >
@@ -154,6 +162,13 @@ export default function Navbar() {
               </Link>
             ))}
           </div>
+          <Link
+            href="/testimonios"
+            onClick={() => setMenuOpen(false)}
+            className="text-texto hover:text-acento"
+          >
+            Testimonios
+          </Link>
           <Link
             href="/pack"
             onClick={() => setMenuOpen(false)}
