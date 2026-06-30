@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { books, getBookBySlug } from "@/lib/books";
+import Image from "next/image";
 import BookCard from "@/components/BookCard";
-import BookCover from "@/components/BookCover";
 
 type Props = {
   params: { slug: string };
@@ -34,12 +34,13 @@ export default function BookPage({ params }: Props) {
       <section className="max-w-5xl mx-auto px-6 py-16">
         <div className="flex flex-col md:flex-row gap-14 items-start">
           {/* Portada */}
-          <div className="flex-shrink-0 mx-auto md:mx-0 w-56 rounded-xl overflow-hidden shadow-lg" style={{ backgroundColor: book.color }}>
-            <BookCover
-              src={book.image}
+          <div className="flex-shrink-0 mx-auto md:mx-0 w-64">
+            <Image
+              src={book.image3d}
               alt={book.title}
-              color={book.color}
-              shortTitle={book.shortTitle}
+              width={660}
+              height={895}
+              className="w-full h-auto drop-shadow-xl"
             />
           </div>
 
