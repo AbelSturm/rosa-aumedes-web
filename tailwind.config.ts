@@ -9,8 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        fondo: "#FAF7F2",
+        texto: "#2C2C2C",
+        acento: "#C4804A",
+        suave: "#8FA68C",
+        card: "#FFFFFF",
+      },
+      fontFamily: {
+        playfair: ["var(--font-playfair)", "serif"],
+        inter: ["var(--font-inter)", "sans-serif"],
       },
     },
   },

@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# rosa-aumedes-web
 
-## Getting Started
+Web portfolio y escaparate de libros para Rosa Aumedes Sánchez.
 
-First, run the development server:
+## Stack
+- Next.js 14 (App Router)
+- Tailwind CSS
+- Deploy: Vercel
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Descripción
+Web minimalista para presentar a la autora y sus tres libros. La compra redirige a Amazon, sin carrito propio por ahora.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Autora
+Rosa Aumedes Sánchez. Nacida en 1970 en Torregrosa (Lleida). Vive en la Costa Brava. Madre de trillizos. En 2020 escribe una trilogía de autoayuda basada en sus experiencias personales.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Libros
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Madre de trillizos: ¡Sí se puede! Es fácil y soy feliz
+- Amazon: https://www.amazon.es/Madre-trillizos-puede-f%C3%A1cil-feliz/dp/8409200066
+- Precio: 18,99€
+- Slug: madre-de-trillizos
+- Imagen: /public/images/madre-de-trillizos.jpg (pendiente)
 
-## Learn More
+### Encuentra tu felicidad: ¡Sí se puede! Mira en tu interior
+- Amazon: https://www.amazon.es/Encuentra-felicidad-puede-Mira-interior/dp/8409213370
+- Precio: 18,99€
+- Slug: encuentra-tu-felicidad
+- Imagen: /public/images/encuentra-tu-felicidad.jpg (pendiente)
 
-To learn more about Next.js, take a look at the following resources:
+### Despedirte de tu ser querido: ¡Sí se puede!
+- Amazon: https://www.amazon.es/Despedirte-ser-querido-Si-puede/dp/8409213389
+- Precio: 18,99€
+- Slug: despedirte-de-tu-ser-querido
+- Imagen: /public/images/despedirte-de-tu-ser-querido.jpg (pendiente)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Páginas
+- / — Home: hero, grid de libros, bloque sobre Rosa, CTA pack
+- /sobre-rosa — Biografía y contexto de la trilogía
+- /libros/madre-de-trillizos
+- /libros/encuentra-tu-felicidad
+- /libros/despedirte-de-tu-ser-querido
+- /pack — Los tres libros juntos, cada uno con link a su Amazon
+- /contacto — Formulario simple
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Paleta
+- Fondo: #FAF7F2
+- Texto: #2C2C2C
+- Acento cálido: #C4804A
+- Acento suave: #8FA68C
+- Cards: #FFFFFF
 
-## Deploy on Vercel
+## Tipografía
+- Títulos: Playfair Display
+- Cuerpo: Inter
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Componentes principales
+- BookCard — portada + título + botón CTA
+- BookHero — layout interior de cada libro
+- Navbar — logo + links con dropdown Libros
+- Footer — nombre autora + links + copyright
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Imágenes pendientes
+- /public/images/rosa-foto.jpg (foto autora, pendiente)
+- Las portadas de los libros hay que añadirlas manualmente en /public/images/
+
+## Roadmap futuro
+- Venta directa con carrito propio
+- Multiidioma (castellano / catalán)
+- Blog o sección de artículos
