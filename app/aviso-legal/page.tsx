@@ -31,7 +31,7 @@ export default function AvisoLegalPage() {
           </li>
           <li>
             <strong className="text-texto">Correo electrónico:</strong>{" "}
-            abelsturmaumedes@gmail.com
+            rosaaumedessanchez@gmail.com
           </li>
         </ul>
       </section>

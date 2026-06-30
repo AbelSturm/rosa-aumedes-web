@@ -31,19 +31,21 @@ export default function SobreRosa() {
 
         <div className="flex-1 font-inter text-stone-600 leading-relaxed space-y-6">
           <p className="text-lg text-texto leading-relaxed">
-            Soy Rosa Aumedes, nacida en Torregrosa (Lleida) y vecina de la
-            Costa Brava desde los 12 años.
+            Nacida en 1970 en Torregrosa, un pequeño pueblo de la provincia de
+            Lleida, a los 12 años se mudó con su familia a la Costa Brava, donde
+            sigue viviendo.
           </p>
           <p>
-            Madre de trillizos, y como tantas personas, he atravesado la
-            pérdida y la búsqueda de sentido. No soy psicóloga ni experta. Soy
-            alguien que ha vivido de frente la maternidad más intensa, el duelo
-            más duro y la pregunta que todos nos hacemos alguna vez: ¿dónde
-            está mi felicidad?
+            En 1996 se fue a vivir y estudiar a Alemania durante cuatro años,
+            una experiencia que marcó profundamente su visión del mundo y de las
+            personas. De vuelta en España, trabajó durante 20 años en una
+            correduría de seguros.
           </p>
           <p>
-            En 2020 escribí una trilogía para compartir lo que aprendí. Por si
-            a alguien le sirve.
+            En 2003, a los 33 años, se convirtió en madre de trillizos. Esa
+            experiencia —intensa, caótica y transformadora— la llevó a
+            interesarse, a partir de 2010, por todo lo relacionado con el
+            crecimiento personal y el bienestar emocional.
           </p>
 
           <blockquote className="border-l-4 border-acento pl-6 py-2 italic text-texto text-lg font-playfair">
@@ -51,16 +53,36 @@ export default function SobreRosa() {
           </blockquote>
 
           <p>
-            Criar a tres hijos a la vez me enseñó más sobre la naturaleza
-            humana que cualquier libro. La búsqueda de mi propia felicidad me
-            llevó a entender que estaba mirando en la dirección equivocada. Y
-            la pérdida de seres queridos me obligó a aprender a soltar.
+            A finales de 2019 dio un giro a su vida profesional y abrió
+            Rosaservei, su propia empresa de acompañamiento y servicios para
+            personas de habla alemana. Y en 2020, decidió plasmar lo aprendido
+            en tres libros.
           </p>
           <p>
-            Esos tres caminos se convirtieron en tres libros. Sin filtros. Sin
-            teorías prestadas. Solo experiencia vivida y el deseo honesto de
-            que le sirva a alguien más.
+            Tres temas que había vivido en primera persona: la maternidad más
+            exigente, la búsqueda de la felicidad interior y el duelo. Sin
+            filtros. Sin teorías prestadas. Solo experiencia vivida y el deseo
+            honesto de que le sirva a alguien más.
           </p>
+
+          <div className="pt-2 flex flex-col gap-1 text-sm text-stone-400">
+            <a
+              href="https://www.instagram.com/rosaaumedes"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-acento transition-colors"
+            >
+              Instagram: @rosaaumedes
+            </a>
+            <a
+              href="https://www.facebook.com/RosaAumedes"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-acento transition-colors"
+            >
+              Facebook: RosaAumedes
+            </a>
+          </div>
         </div>
       </section>
 

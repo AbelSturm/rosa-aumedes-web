@@ -26,7 +26,7 @@ export default function PoliticaPrivacidadPage() {
           </li>
           <li>
             <strong className="text-texto">Contacto:</strong>{" "}
-            abelsturmaumedes@gmail.com
+            rosaaumedessanchez@gmail.com
           </li>
         </ul>
       </section>
@@ -81,7 +81,7 @@ export default function PoliticaPrivacidadPage() {
         </h2>
         <p>
           Puedes ejercer tus derechos de acceso, rectificación, supresión,
-          oposición y portabilidad enviando un correo a abelsturmaumedes@gmail.com.
+          oposición y portabilidad enviando un correo a rosaaumedessanchez@gmail.com.
           También tienes derecho a presentar una reclamación ante la Agencia
           Española de Protección de Datos (aepd.es).
         </p>

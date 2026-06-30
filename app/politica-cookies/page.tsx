@@ -62,7 +62,7 @@ export default function PoliticaCookiesPage() {
         </h2>
         <p>
           Si tienes dudas sobre nuestra política de cookies, puedes contactarnos
-          en abelsturmaumedes@gmail.com.
+          en rosaaumedessanchez@gmail.com.
         </p>
       </section>
     </div>
