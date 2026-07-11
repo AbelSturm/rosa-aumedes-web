@@ -44,7 +44,7 @@ export default function BirthdayGift() {
       className={`fixed inset-0 z-[100] flex items-center justify-center overflow-hidden bg-fondo transition-opacity duration-1000 ease-out ${
         opening ? "opacity-0" : "opacity-100"
       }`}
-      aria-label="Felicitación de cumpleaños"
+      aria-label="Felicitació d'aniversari"
     >
       {/* Elementos flotantes de fondo */}
       {FLOATERS.map((f, i) => (
@@ -85,22 +85,22 @@ export default function BirthdayGift() {
           className="gift-fade font-playfair text-4xl md:text-5xl font-semibold text-texto leading-tight mb-6"
           style={{ animationDelay: "0.6s" }}
         >
-          Muchas felicidades,
+          Moltes felicitats,
           <br />
-          <span className="text-acento">mamá</span>
+          <span className="text-acento">mama</span>
         </h1>
         <p
           className="gift-fade font-inter text-lg md:text-xl text-texto/80 leading-relaxed mb-10"
           style={{ animationDelay: "1.2s" }}
         >
-          Eres la mejor. Eres una inspiración.
+          Ets la millor. Ets una inspiració.
         </p>
         <button
           onClick={openGift}
           className="gift-fade inline-flex items-center gap-2 bg-acento text-white font-inter px-8 py-4 rounded-full text-lg shadow-lg hover:scale-105 hover:shadow-xl transition-all duration-300"
           style={{ animationDelay: "1.8s" }}
         >
-          ¿Quieres abrir tu regalo? 🎁
+          Vols obrir el teu regal? 🎁
         </button>
       </div>
 
