@@ -3,6 +3,7 @@ import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import BirthdayGift from "@/components/BirthdayGift";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -37,6 +38,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${playfair.variable} font-inter bg-fondo text-texto antialiased`}
       >
+        <BirthdayGift />
         <Navbar />
         <main>{children}</main>
         <Footer />
