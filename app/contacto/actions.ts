@@ -27,7 +27,7 @@ export async function sendContactEmail(
   }
 
   const { error } = await resend.emails.send({
-    from: "Web Rosa Aumedes <onboarding@resend.dev>",
+    from: "Web Rosa Aumedes Sánchez <onboarding@resend.dev>",
     to,
     replyTo: email,
     subject: `Mensaje de contacto de ${nombre}`,

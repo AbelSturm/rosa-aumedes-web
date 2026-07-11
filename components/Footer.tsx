@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
             <p className="font-playfair text-xl text-white mb-2">
-              Rosa Aumedes
+              Rosa Aumedes Sánchez
             </p>
             <p className="text-sm text-stone-400 leading-relaxed">
               Autora de una trilogía de autoayuda basada en experiencias

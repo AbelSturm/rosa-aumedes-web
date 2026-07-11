@@ -15,7 +15,7 @@ export default function Navbar() {
           href="/"
           className="font-playfair text-xl font-semibold text-texto hover:text-acento transition-colors"
         >
-          Rosa Aumedes
+          Rosa Aumedes Sánchez
         </Link>
 
         {/* Desktop nav */}
