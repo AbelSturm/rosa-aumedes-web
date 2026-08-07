@@ -33,7 +33,7 @@ export default function Navbar() {
               href="/sobre-rosa"
               className="text-texto hover:text-acento transition-colors"
             >
-              Sobre Rosa
+              Sobre mí
             </Link>
           </li>
           <li className="relative">
@@ -145,7 +145,7 @@ export default function Navbar() {
             onClick={() => setMenuOpen(false)}
             className="text-texto hover:text-acento"
           >
-            Sobre Rosa
+            Sobre mí
           </Link>
           <div>
             <p className="text-xs uppercase tracking-widest text-stone-400 mb-2">

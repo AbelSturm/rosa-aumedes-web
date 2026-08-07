@@ -25,7 +25,7 @@ export const books: Book[] = [
     image3d: "/images/madre-de-trillizos-3d.png",
     color: "#E8D5C4",
     description:
-      "Todos imaginamos cómo será tener hijos, pero nadie nos enseña cómo guiarlos. Rosa no escribe desde los libros de texto, escribe desde el caos organizado de criar a tres a la vez. Un libro honesto sobre educación, maternidad y el día a día real con hijos. Basado en experiencia propia y aprendizajes concretos.",
+      "Todos imaginamos cómo será tener hijos, pero nadie nos enseña cómo guiarlos. No escribo desde los libros de texto, escribo desde el caos organizado de criar a tres a la vez. Un libro honesto sobre educación, maternidad y el día a día real con hijos. Basado en experiencia propia y aprendizajes concretos.",
     quotes: [
       "Nadie nos enseña a ser padres. Pero la vida, si la escuchas, lo hace.",
       "Los hijos no necesitan padres perfectos. Necesitan padres presentes.",
@@ -46,7 +46,7 @@ export const books: Book[] = [
     image3d: "/images/encuentra-tu-felicidad-3d.png",
     color: "#C8D8C4",
     description:
-      "Buscamos la felicidad en el trabajo, en las relaciones, en lo que aún no tenemos. Rosa propone lo contrario: dejar de mirar fuera. Un libro para aprender a quererse, a encontrar paz dentro y a dejar de posponer lo que ya tienes delante.",
+      "Buscamos la felicidad en el trabajo, en las relaciones, en lo que aún no tenemos. Yo propongo lo contrario: dejar de mirar fuera. Un libro para aprender a quererse, a encontrar paz dentro y a dejar de posponer lo que ya tienes delante.",
     quotes: [
       "Si tú no te quieres, nadie te querrá. Si tú no tienes paz, nadie te la dará.",
       "La felicidad no está en lo que aún no tienes. Está en lo que ya eres.",
@@ -67,7 +67,7 @@ export const books: Book[] = [
     image3d: "/images/despedirte-de-tu-ser-querido-3d.png",
     color: "#D4C8D8",
     description:
-      "Perder a alguien es de las experiencias más duras que existen. Y a menudo nos quedamos solos con ello, sin saber cómo seguir. Rosa escribe desde la vivencia propia para acompañar a quien está en ese momento. Sin fórmulas mágicas. Con honestidad y cercanía.",
+      "Perder a alguien es de las experiencias más duras que existen. Y a menudo nos quedamos solos con ello, sin saber cómo seguir. Escribo desde la vivencia propia para acompañar a quien está en ese momento. Sin fórmulas mágicas. Con honestidad y cercanía.",
     quotes: [
       "Soltar no es olvidar. Es aprender a amar de otra manera.",
       "El duelo no se supera. Se integra. Y en ese proceso, uno también se transforma.",

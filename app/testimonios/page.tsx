@@ -4,7 +4,7 @@ import { testimonials } from "@/lib/testimonials";
 export const metadata: Metadata = {
   title: "Testimonios — Rosa Aumedes Sánchez",
   description:
-    "Lo que dicen los lectores y compañeros autores sobre los libros de Rosa Aumedes Sánchez.",
+    "Lo que dicen los lectores y compañeros autores sobre mis libros.",
 };
 
 export default function TestimoniosPage() {
@@ -18,8 +18,7 @@ export default function TestimoniosPage() {
           Testimonios
         </h1>
         <p className="font-inter text-stone-500 text-lg max-w-2xl">
-          Palabras de lectores y compañeros autores que han leído los libros de
-          Rosa.
+          Palabras de lectores y compañeros autores que han leído mis libros.
         </p>
       </section>
 

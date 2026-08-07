@@ -10,7 +10,7 @@ export default function Footer() {
               Rosa Aumedes Sánchez
             </p>
             <p className="text-sm text-stone-400 leading-relaxed">
-              Autora de una trilogía de autoayuda basada en experiencias
+              Autora de una trilogía de autoayuda basada en mis experiencias
               personales. Maternidad, felicidad y duelo.
             </p>
           </div>
@@ -30,7 +30,7 @@ export default function Footer() {
                   href="/sobre-rosa"
                   className="hover:text-acento transition-colors"
                 >
-                  Sobre Rosa
+                  Sobre mí
                 </Link>
               </li>
               <li>

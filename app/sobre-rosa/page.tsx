@@ -5,9 +5,9 @@ import BookCard from "@/components/BookCard";
 import AuthorPhoto from "@/components/AuthorPhoto";
 
 export const metadata: Metadata = {
-  title: "Sobre Rosa — Rosa Aumedes Sánchez",
+  title: "Sobre mí — Rosa Aumedes Sánchez",
   description:
-    "Conoce a Rosa Aumedes Sánchez, autora de una trilogía de autoayuda basada en sus experiencias personales.",
+    "Soy Rosa Aumedes Sánchez, autora de una trilogía de autoayuda basada en mis experiencias personales.",
 };
 
 export default function SobreRosa() {
@@ -31,20 +31,20 @@ export default function SobreRosa() {
 
         <div className="flex-1 font-inter text-stone-600 leading-relaxed space-y-6">
           <p className="text-lg text-texto leading-relaxed">
-            Nacida en 1970 en Torregrosa, un pequeño pueblo de la provincia de
-            Lleida, a los 12 años se mudó con su familia a la Costa Brava, donde
-            sigue viviendo.
+            Nací en 1970 en Torregrosa, un pequeño pueblo de la provincia de
+            Lleida. A los 12 años me mudé con mi familia a la Costa Brava,
+            donde sigo viviendo.
           </p>
           <p>
-            En 1996 se fue a vivir y estudiar a Alemania durante cuatro años,
-            una experiencia que marcó profundamente su visión del mundo y de las
-            personas. De vuelta en España, trabajó durante 20 años en una
+            En 1996 me fui a vivir y estudiar a Alemania durante cuatro años,
+            una experiencia que marcó profundamente mi visión del mundo y de
+            las personas. De vuelta en España, trabajé durante 20 años en una
             correduría de seguros.
           </p>
           <p>
-            En 2003, a los 33 años, se convirtió en madre de trillizos. Esa
-            experiencia —intensa, caótica y transformadora— la llevó a
-            interesarse, a partir de 2010, por todo lo relacionado con el
+            En 2003, a los 33 años, me convertí en madre de trillizos. Esa
+            experiencia —intensa, caótica y transformadora— me llevó a
+            interesarme, a partir de 2010, por todo lo relacionado con el
             crecimiento personal y el bienestar emocional.
           </p>
 
@@ -53,9 +53,9 @@ export default function SobreRosa() {
           </blockquote>
 
           <p>
-            A finales de 2019 dio un giro a su vida profesional y abrió
-            Rosaservei, su propia empresa de acompañamiento y servicios para
-            personas de habla alemana. Y en 2020, decidió plasmar lo aprendido
+            A finales de 2019 di un giro a mi vida profesional y abrí
+            Rosaservei, mi propia empresa de acompañamiento y servicios para
+            personas de habla alemana. Y en 2020, decidí plasmar lo aprendido
             en tres libros.
           </p>
           <p>

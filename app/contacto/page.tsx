@@ -3,7 +3,7 @@ import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contacto — Rosa Aumedes Sánchez",
-  description: "Escríbele a Rosa Aumedes Sánchez.",
+  description: "Escríbeme.",
 };
 
 export default function Contacto() {

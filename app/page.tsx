@@ -61,16 +61,16 @@ export default function Home() {
             Rosa Aumedes Sánchez
           </h2>
           <p className="font-inter text-stone-500 leading-relaxed mb-6">
-            Nacida en Torregrosa (Lleida), vive en la Costa Brava desde los 12
-            años. Madre de trillizos. En 2020 escribió una trilogía de autoayuda
-            basada en sus propias experiencias: la maternidad intensa, la
-            búsqueda de la felicidad y el duelo.
+            Nací en Torregrosa (Lleida) y vivo en la Costa Brava desde los 12
+            años. Soy madre de trillizos. En 2020 escribí una trilogía de
+            autoayuda basada en mis propias experiencias: la maternidad
+            intensa, la búsqueda de la felicidad y el duelo.
           </p>
           <Link
             href="/sobre-rosa"
             className="inline-flex items-center gap-2 text-acento font-medium font-inter hover:gap-3 transition-all"
           >
-            Conocer su historia
+            Conocer mi historia
             <svg
               className="w-4 h-4"
               fill="none"
@@ -111,8 +111,8 @@ export default function Home() {
             La trilogía completa
           </h2>
           <p className="font-inter text-stone-300 leading-relaxed mb-8 max-w-xl mx-auto">
-            Tres libros escritos desde la misma voz: la de alguien que ha vivido
-            lo que cuenta. La maternidad, la felicidad y la pérdida.
+            Tres libros escritos desde mi propia voz: la de alguien que ha
+            vivido lo que cuenta. La maternidad, la felicidad y la pérdida.
           </p>
           <Link
             href="/pack"

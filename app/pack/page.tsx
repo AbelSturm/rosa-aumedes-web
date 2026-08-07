@@ -5,7 +5,7 @@ import BookCover from "@/components/BookCover";
 export const metadata: Metadata = {
   title: "La trilogía completa — Rosa Aumedes Sánchez",
   description:
-    "Los tres libros de Rosa Aumedes Sánchez: maternidad, felicidad y duelo. Disponibles en Amazon.",
+    "Mis tres libros: maternidad, felicidad y duelo. Disponibles en Amazon.",
 };
 
 export default function Pack() {
@@ -21,7 +21,7 @@ export default function Pack() {
             La trilogía completa
           </h1>
           <p className="font-inter text-stone-300 leading-relaxed text-lg">
-            Tres libros escritos desde la misma voz: la de alguien que ha
+            Tres libros escritos desde mi propia voz: la de alguien que ha
             vivido lo que cuenta. La maternidad, la felicidad y la pérdida. Un
             camino completo.
           </p>
