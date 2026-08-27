@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { books } from "@/lib/books";
 import BookCard from "@/components/BookCard";
@@ -47,6 +48,15 @@ export default function SobreRosa() {
             interesarme, a partir de 2010, por todo lo relacionado con el
             crecimiento personal y el bienestar emocional.
           </p>
+
+          <div className="relative w-full aspect-[3/2] rounded-xl overflow-hidden">
+            <Image
+              src="/images/rosa-familia-trillizos.jpg"
+              alt="Rosa Aumedes paseando de la mano con sus tres hijos"
+              fill
+              className="object-cover"
+            />
+          </div>
 
           <blockquote className="border-l-4 border-acento pl-6 py-2 italic text-texto text-lg font-playfair">
             &ldquo;No escribo desde los libros de texto. Escribo desde la vida.&rdquo;

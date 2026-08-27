@@ -6,9 +6,16 @@ import Image from "next/image";
 type Props = {
   className?: string;
   large?: boolean;
+  src?: string;
+  alt?: string;
 };
 
-export default function AuthorPhoto({ className = "", large = false }: Props) {
+export default function AuthorPhoto({
+  className = "",
+  large = false,
+  src = "/images/rosa-foto.jpg",
+  alt = "Rosa Aumedes Sánchez",
+}: Props) {
   const [imgError, setImgError] = useState(false);
 
   const size = large ? "h-96 w-72" : "h-64 w-48";
@@ -43,8 +50,8 @@ export default function AuthorPhoto({ className = "", large = false }: Props) {
   return (
     <div className={`${size} relative rounded-xl overflow-hidden ${className}`}>
       <Image
-        src="/images/rosa-foto.jpg"
-        alt="Rosa Aumedes Sánchez"
+        src={src}
+        alt={alt}
         fill
         className="object-cover"
         onError={() => setImgError(true)}

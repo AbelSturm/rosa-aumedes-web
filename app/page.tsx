@@ -51,7 +51,10 @@ export default function Home() {
       {/* Bloque sobre Rosa */}
       <section className="max-w-5xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center gap-12">
         <div className="flex-shrink-0">
-          <AuthorPhoto />
+          <AuthorPhoto
+            src="/images/rosa-familia-trillizos.jpg"
+            alt="Rosa Aumedes paseando de la mano con sus tres hijos"
+          />
         </div>
         <div className="flex-1">
           <p className="text-xs uppercase tracking-widest text-suave mb-3 font-inter">
