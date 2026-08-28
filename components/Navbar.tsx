@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { books } from "@/lib/books";
 
@@ -11,11 +12,15 @@ export default function Navbar() {
   return (
     <nav className="bg-fondo border-b border-stone-200 sticky top-0 z-50">
       <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-        <Link
-          href="/"
-          className="font-playfair text-xl font-semibold text-texto hover:text-acento transition-colors"
-        >
-          Rosa Aumedes Sánchez
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/images/logo-largo.png"
+            alt="Rosa Aumedes Sánchez"
+            width={842}
+            height={152}
+            priority
+            className="h-10 w-auto"
+          />
         </Link>
 
         {/* Desktop nav */}
